@@ -7,13 +7,14 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Căn các phần tử lên trên cùng */
     align-items: center;
     background-image: url('https://cdn-media.sforum.vn/storage/app/media/quynh/hinh-nen-loopy-47.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     flex-direction: column; /* Để các phần tử (h1, hình ảnh, nút) được xếp theo cột */
+    padding-top: 20px; /* Khoảng cách trên cùng */
 }
 
 /* Container để căn chỉnh hình ảnh và nút */
@@ -29,7 +30,7 @@ body {
 h1 {
     color: #ff69b4;
     font-size: 2.5em;
-    margin-top: 20px;
+    margin-top: 0; /* Không có khoảng cách trên cùng */
 }
 
 /* Hình ảnh */
@@ -64,4 +65,11 @@ button:hover {
     }
 
     .decor-image {
-        width: 80%; /* Giảm kích thước hình ảnh
+        width: 80%; /* Giảm kích thước hình ảnh trên màn hình nhỏ */
+    }
+
+    button {
+        font-size: 1em; /* Giảm kích thước nút */
+        padding: 8px 16px; /* Giảm padding của nút */
+    }
+}
