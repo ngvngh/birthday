@@ -2,6 +2,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
     text-align: center;
+  background-image: url('https://cdn-media.sforum.vn/storage/app/media/quynh/hinh-nen-loopy-47.jpg');
+  background-size: cover; /* Làm cho hình nền phủ kín màn hình */
+  background-position: center; /* Căn giữa hình nền */
+  background-attachment: fixed; /* Giữ hình nền cố định khi cuộn trang */
+}
+;
 }
 
 h1 {
