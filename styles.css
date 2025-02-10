@@ -7,14 +7,14 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: flex-start; /* Căn các phần tử lên trên cùng */
-    align-items: center;
+    flex-direction: column; /* Các phần tử xếp theo cột */
+    justify-content: flex-start; /* Đảm bảo các phần tử căn lên trên cùng */
+    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
     background-image: url('https://cdn-media.sforum.vn/storage/app/media/quynh/hinh-nen-loopy-47.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    flex-direction: column; /* Để các phần tử (h1, hình ảnh, nút) được xếp theo cột */
-    padding-top: 20px; /* Khoảng cách trên cùng */
+    padding-top: 20px; /* Khoảng cách từ trên cùng */
 }
 
 /* Container để căn chỉnh hình ảnh và nút */
