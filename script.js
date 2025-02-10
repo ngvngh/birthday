@@ -10,7 +10,7 @@ showMessageBtn.addEventListener('click', () => {
     messageDiv.style.display = 'block';
 });
 
-// Quay lại trang đầu tiên khi nhấn nút "Quay lại"
+// Quay lại trang đầu tiên khi nhấn nút "Quay lại nè"
 backBtn.addEventListener('click', () => {
     messageDiv.style.display = 'none';
     homeDiv.style.display = 'block';
