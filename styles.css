@@ -57,3 +57,11 @@ button:hover {
     background-color: #ff1493;
 }
 
+/* Media query cho thiết bị di động */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Giảm kích thước chữ trên màn hình nhỏ */
+    }
+
+    .decor-image {
+        width: 80%; /* Giảm kích thước hình ảnh
