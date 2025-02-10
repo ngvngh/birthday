@@ -13,23 +13,31 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    flex-direction: column; /* Để các phần tử (h1, hình ảnh, nút) được xếp theo cột */
 }
 
-/* Container để căn giữa hình ảnh và nút */
+/* Container để căn chỉnh hình ảnh và nút */
 .container {
     display: flex;
-    flex-direction: column; /* Sắp xếp theo cột (hình ảnh trên, nút dưới) */
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Các phần tử xếp theo cột */
+    justify-content: flex-start; /* Đảm bảo chữ vẫn ở trên cùng */
+    align-items: center; /* Căn giữa theo chiều ngang */
     text-align: center;
 }
 
-/* Hình ảnh căn giữa */
+/* Dòng chữ */
+h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Hình ảnh */
 .decor-image {
     width: 300px;
     height: auto;
     margin-bottom: 20px; /* Khoảng cách giữa hình ảnh và nút */
-    border-radius: 10px; /* Tùy chọn: bo góc của hình ảnh */
+    border-radius: 10px;
 }
 
 /* Nút bấm */
