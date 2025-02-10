@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Chúc Mừng Sinh Nhật</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Trang đầu tiên -->
+    <div id="home">
+        <h1>Chúc Mừng Sinh Nhật!</h1>
+        <img src="path_to_image.jpg" alt="Image decoration" class="decor-image">
+        <button id="showMessageBtn">Mở lời chúc mừng</button>
+    </div>
+
+    <!-- Trang thứ hai (sau khi nhấn nút) -->
+    <div id="message" style="display: none;">
+        <h2>Lời Chúc Mừng Sinh Nhật</h2>
+        <p>Chúc bạn một năm mới tràn đầy hạnh phúc, sức khỏe và may mắn. Chúc mừng sinh nhật!</p>
+        <img src="path_to_another_image.jpg" alt="Birthday image" class="decor-image">
+        <button id="backBtn">Quay lại</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
