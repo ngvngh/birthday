@@ -17,15 +17,6 @@ body {
     padding-top: 20px;
 }
 
-/* Container để căn chỉnh hình ảnh và nút */
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-}
-
 /* Dòng chữ */
 h1 {
     color: #ff69b4;
@@ -87,20 +78,4 @@ button:hover {
     position: absolute;
     bottom: 20px;
     left: 20px;
-}
-
-/* Media query cho thiết bị di động */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    .decor-image {
-        width: 80%;
-    }
-
-    button {
-        font-size: 1em;
-        padding: 8px 16px;
-    }
 }
