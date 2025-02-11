@@ -1,4 +1,4 @@
-/* Cấu hình body */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
@@ -17,14 +17,14 @@ body {
     padding-top: 20px;
 }
 
-/* Dòng chữ */
+
 h1 {
     color: #ff69b4;
     font-size: 2.5em;
     margin-top: 0;
 }
 
-/* Hình ảnh */
+
 .decor-image {
     width: 300px;
     height: auto;
@@ -32,7 +32,7 @@ h1 {
     border-radius: 10px;
 }
 
-/* Nút bấm */
+
 button {
     padding: 10px 20px;
     background-color: #ff69b4;
@@ -44,12 +44,12 @@ button {
     transition: background-color 0.3s;
 }
 
-/* Hiệu ứng hover khi di chuột vào nút */
+
 button:hover {
     background-color: #ff1493;
 }
 
-/* Trang 1: Nút bấm ở giữa trang */
+
 #page1 {
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@ button:hover {
     height: 100%;
 }
 
-/* Trang 2: Nút bấm ở góc trên bên phải */
+
 #page2 {
     position: relative;
 }
@@ -68,10 +68,10 @@ button:hover {
     top: 20px;
     right: 20px;
 }
-/* Trang 3: Nút bấm ở góc dưới bên phải */
+
 #page3 {
-    position: relative; /* Để định vị tuyệt đối cho nút bấm */
-    bottom: 20px; /* Khoảng cách từ dưới cùng */
-    left: 20px; /* Khoảng cách từ bên phải */
-    /* Các kiểu dáng khác của nút bấm */
+    position: relative; 
+    bottom: 20px; 
+    left: 20px; 
+    
 }
