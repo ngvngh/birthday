@@ -7,22 +7,22 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    flex-direction: column; /* Các phần tử xếp theo cột */
-    justify-content: flex-start; /* Đảm bảo các phần tử căn lên trên cùng */
-    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-image: url('https://cdn-media.sforum.vn/storage/app/media/quynh/hinh-nen-loopy-47.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 20px; /* Khoảng cách từ trên cùng */
+    padding-top: 20px;
 }
 
 /* Container để căn chỉnh hình ảnh và nút */
 .container {
     display: flex;
-    flex-direction: column; /* Các phần tử xếp theo cột */
-    justify-content: flex-start; /* Đảm bảo chữ vẫn ở trên cùng */
-    align-items: center; /* Căn giữa theo chiều ngang */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
 }
 
@@ -30,14 +30,14 @@ body {
 h1 {
     color: #ff69b4;
     font-size: 2.5em;
-    margin-top: 0; /* Không có khoảng cách trên cùng */
+    margin-top: 0;
 }
 
 /* Hình ảnh */
 .decor-image {
     width: 300px;
     height: auto;
-    margin-bottom: 20px; /* Khoảng cách giữa hình ảnh và nút */
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
@@ -58,53 +58,49 @@ button:hover {
     background-color: #ff1493;
 }
 
-/* Media query cho thiết bị di động */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2em; /* Giảm kích thước chữ trên màn hình nhỏ */
-    }
-
-    .decor-image {
-        width: 80%; /* Giảm kích thước hình ảnh trên màn hình nhỏ */
-    }
-
-    button {
-        font-size: 1em; /* Giảm kích thước nút */
-        padding: 8px 16px; /* Giảm padding của nút */
-    }
 /* Trang 1: Nút bấm ở giữa trang */
 #page1 {
-    display: flex; /* Sử dụng flexbox để căn giữa */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Để đảm bảo trang cao bằng chiều cao viewport */
-}
-
-#page1 button {
-    /* Các kiểu dáng khác của nút bấm */
+    height: 100%;
 }
 
 /* Trang 2: Nút bấm ở góc trên bên phải */
 #page2 {
-    position: relative; /* Để định vị tuyệt đối cho nút bấm */
+    position: relative;
 }
 
 #page2 button {
     position: absolute;
     top: 20px;
     right: 20px;
-    /* Các kiểu dáng khác của nút bấm */
 }
 
 /* Trang 3: Nút bấm ở góc dưới bên trái */
 #page3 {
-    position: relative; /* Để định vị tuyệt đối cho nút bấm */
+    position: relative;
 }
 
 #page3 button {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    /* Các kiểu dáng khác của nút bấm */
+}
+
+/* Media query cho thiết bị di động */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .decor-image {
+        width: 80%;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
 }
