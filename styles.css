@@ -68,14 +68,14 @@ button:hover {
     top: 20px;
     right: 20px;
 }
-
-/* Trang 3: Nút bấm ở góc dưới bên trái */
+/* Trang 3: Nút bấm ở góc dưới bên phải */
 #page3 {
-    position: relative;
+    position: relative; /* Để định vị tuyệt đối cho nút bấm */
 }
 
 #page3 button {
     position: absolute;
-    bottom: 5px;
-    left: 20px;
+    bottom: 20px; /* Khoảng cách từ dưới cùng */
+    right: 20px; /* Khoảng cách từ bên phải */
+    /* Các kiểu dáng khác của nút bấm */
 }
