@@ -75,7 +75,7 @@ button:hover {
 
 #page3 button {
     position: absolute;
-    bottom: 5px; /* Khoảng cách từ dưới cùng */
+    bottom: 1px; /* Khoảng cách từ dưới cùng */
     right: 20px; /* Khoảng cách từ bên phải */
     /* Các kiểu dáng khác của nút bấm */
 }
